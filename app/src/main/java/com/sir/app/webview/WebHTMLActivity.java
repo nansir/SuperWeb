@@ -87,5 +87,7 @@ public class WebHTMLActivity extends BaseActivity {
                 webview.loadUrl("javascript:asyncFun()");
             }
         });
+
+        webview.loadUrl("javascript:myFunction()");
     }
 }

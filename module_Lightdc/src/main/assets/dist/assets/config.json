@@ -1,0 +1,6 @@
+{
+  "maxSpeed": 4,
+  "minSpeed": 1,
+  "updateDelay": 1000,
+  "bottomInfo": "中国电信"
+}

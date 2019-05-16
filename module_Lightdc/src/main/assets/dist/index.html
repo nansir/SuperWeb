@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport">
+    <title>在线测速</title>
+    <script src="./assets/js/flexible.js"></script>
+    <script src="./assets/js/flexible_css.js"></script>
+    <script src="./assets/js/jquery-3.1.1.js"></script>
+    <script src="./assets/js/echarts.min.js"></script>
+<link rel="shortcut icon" href="favicon.ico"><link href="./css/index.css?8f6dcb31ad6b5e03cfef" rel="stylesheet"></head>
+<body>
+<div class="container wh bgw pr">
+    <div class="dashboard-box w font-cn">
+        <div class="dashboard h pr">
+            <div class="pa dashboard-circle-box wh">
+                <div class="dashboard-content wh pr">
+                    <div class="point-box">
+
+                    </div>
+                    <svg width="100%" height="119%" viewBox="0 0 100 100">
+                        <circle class="dashboard-line" cx="50" cy="50" r="48">
+                        </circle>
+                    </svg>
+                </div>
+            </div>
+            <span class="pa speed-text font-en">
+                    4.7
+            </span>
+            <div class="pa dashboard-name">实时速率</div>
+            <img src="img/27af4be0f8ecc7a0f36c3b7c06d6cbe8.png" alt="" class="dashboard-bg">
+        </div>
+    </div>
+    <div class="start-btn-box">
+        <div class="btn-start font-cn">
+            开始测速
+        </div>
+    </div>
+    <div class="pa bottom-box w">
+        <div class="details-box pa w font-cn">
+            <div class="details-item">
+                <h3 class="font-cn">峰值速率<em class="font-light">（Gbps）</em></h3>
+                <span class="font-light highSpeed">3.2</span>
+            </div>
+            <div class="details-item">
+                <h3 class="font-cn">平均速率<em class="font-light">（Gbps）</em></h3>
+                <span class="font-light averageSpeed">2.8</span>
+            </div>
+        </div>
+        <div class="chart-box wh">
+            <div class="chart-content wh" id="chart_content"></div>
+        </div>
+        <div class="bottom-info t-center">中国电信·北京</div>
+    </div>
+</div>
+<script type="text/javascript" src="js/common.chunk.js?8f6dcb31ad6b5e03cfef"></script><script type="text/javascript" src="js/index.js?8f6dcb31ad6b5e03cfef"></script></body>
+</html>

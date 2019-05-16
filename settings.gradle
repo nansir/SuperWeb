@@ -1,1 +1,1 @@
-include ':app', ':library_tbs'
+include ':app', ':library_tbs', ':module_Lightdc'
